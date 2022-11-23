@@ -14,7 +14,7 @@ export class EmployeeFormComponent {
     salary: new FormControl(null, [Validators.required])
   });
 
-  onEmployeeFormSubmitted(employeeForm: FormGroup): void {
-    console.log('sumbitted')
+  onEmployeeFormSubmitted(form: {name: string, age:number, salary:number}){
+    alert('User was successfully added to the database' + ' Name:' + form.name + ' Age:' + form.age + ' Salary:'+ form.salary)
   }
 }
