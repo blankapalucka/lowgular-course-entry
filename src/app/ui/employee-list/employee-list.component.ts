@@ -1,6 +1,6 @@
-import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
-import { Observable } from 'rxjs';
-import { EmployeeService } from '../../services/employee.service';
+import {ChangeDetectionStrategy, Component, ViewEncapsulation} from '@angular/core';
+import {Observable} from 'rxjs';
+import {EmployeeService} from '../../services/employee.service';
 import {PersonModel} from "../../model/person.model";
 
 @Component({
@@ -12,7 +12,14 @@ import {PersonModel} from "../../model/person.model";
 export class EmployeeListComponent {
   data$: Observable<PersonModel[] | null> = this._employeeService.getAll();
 
-  constructor(private _employeeService: EmployeeService) {}
+  constructor(private _employeeService: EmployeeService) {
+  }
+
+  remove(id: string) {
+    this._employeeService.delete(id).subscribe(() => {
+      alert('User was successfully removed')
+    })
+  }
 }
 
 
