@@ -82,3 +82,95 @@
 	"level": "info",
 	"message": "[CLI] Calling Query entity/actions"
 }
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/tom/workspace/blanka/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Calling Query entity/create/flow: {
+	"funcParams": {
+		"clickedPath": "/home/tom/workspace/blanka/lowgular-course-entry/src/app/services"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/create/flow"
+}
+[info] [CLI] Called Query entity/create/flow: {
+	"result": {
+		"context": {},
+		"steps": [
+			{
+				"contextId": "entity",
+				"title": "What do you want to create?",
+				"type": "multi-option",
+				"options": [
+					{
+						"id": "component",
+						"suffix": "Component",
+						"folder": "ui/$name$",
+						"type": "ANGULAR_COMPONENT",
+						"insideOf": "App",
+						"config": {
+							"stylesExtension": "none",
+							"viewEncapsulation": "Emulated",
+							"selector": "generated",
+							"changeDetectionStrategy": "OnPush"
+						}
+					},
+					{
+						"id": "dataService",
+						"suffix": "Service",
+						"folder": "services",
+						"type": "ANGULAR_SERVICE",
+						"insideOf": "App",
+						"config": {
+							"provideStrategy": "root"
+						}
+					},
+					{
+						"id": "model",
+						"suffix": "Model",
+						"folder": "model",
+						"type": "DATA_STRUCTURE",
+						"insideOf": "App"
+					},
+					{
+						"id": "response",
+						"suffix": "Response",
+						"folder": "services",
+						"type": "DATA_STRUCTURE",
+						"insideOf": "App"
+					}
+				],
+				"extraOptions": [],
+				"property": "id",
+				"canBeEmpty": false
+			}
+		],
+		"request": {}
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/create/flow"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/tom/workspace/blanka/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/tom/workspace/blanka/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "/home/tom/workspace/blanka/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
